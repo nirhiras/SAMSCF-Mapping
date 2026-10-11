@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ForeScout Device Security Posture</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="head">
+      <h1>ForeScout device security posture</h1>
+      <p class="take" id="takeaway">Loading findings…</p>
+      <p class="sub" id="sub"></p>
+    </header>
+
+    <section class="kpis" id="kpis" aria-label="Headline figures"></section>
+
+    <section class="card">
+      <div class="cardhead">
+        <h2>Findings by area</h2>
+        <p class="note">Affected hosts per finding. The grey part is hosts ForeScout could not check, so the real count may be higher.</p>
+      </div>
+      <div class="chips" id="pillars" role="group" aria-label="Filter by area"></div>
+      <div class="legend"><span><i class="sw sw-a"></i>Confirmed</span><span><i class="sw sw-u"></i>Unverified</span></div>
+      <div class="bars" id="finding-bars"></div>
+    </section>
+
+    <section class="card">
+      <div class="cardhead">
+        <h2>Action plan</h2>
+        <p class="note" id="plan-note">Priority 1 = fix first. Uses the area filter above.</p>
+      </div>
+      <div class="edit" id="edit-box" hidden>
+        <label for="edit-token">Edit token</label>
+        <input id="edit-token" type="password" autocomplete="off" placeholder="Needed to save status and owner">
+      </div>
+      <div class="tablewrap">
+        <table id="plan">
+          <thead><tr>
+            <th class="num">Priority</th><th>Area</th><th>Finding</th><th>Severity</th>
+            <th class="num">Confirmed</th><th class="num">Unverified</th><th>Next step</th><th>Status</th><th>Owner</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="toast" id="toast" role="status" aria-live="polite"></p>
+    </section>
+
+    <div class="grid">
+      <section class="card">
+        <div class="cardhead">
+          <h2>Security control coverage</h2>
+          <p class="note">Share of relevant hosts where each control is confirmed. Red is under 10%.</p>
+        </div>
+        <div class="bars" id="coverage-bars"></div>
+      </section>
+      <section class="card">
+        <div class="cardhead">
+          <h2>Device mix</h2>
+          <p class="note">Hosts by ForeScout discovery category.</p>
+        </div>
+        <div class="bars" id="device-bars"></div>
+      </section>
+    </div>
+
+    <section class="card">
+      <div class="cardhead">
+        <h2>Legacy OS hosts</h2>
+        <p class="note">Unsupported operating systems, mostly OT control systems and medical imaging. Isolate these first.</p>
+      </div>
+      <input class="search" id="legacy-q" type="search" placeholder="Search host, OS, segment" aria-label="Search legacy hosts">
+      <div class="tablewrap">
+        <table id="legacy">
+          <thead><tr><th>Host</th><th>IP</th><th>Function</th><th>Operating system</th><th>Segment</th><th>Purdue level</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer class="foot">
+      Source: ForeScout host export from a demo lab. Counts are host records. "Unverified" means ForeScout returned no result for that check.
+    </footer>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

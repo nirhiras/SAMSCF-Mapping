@@ -1,0 +1,317 @@
+[
+{
+"host": "windowsxp5",
+"function": "Workstation",
+"os": "Windows XP Service Pack 2",
+"segment": "Operational Technology",
+"purdue": "3 - Site Operations and Control",
+"ip": "192.168.56.102",
+"id": "windowsxp5 (192.168.56.102)"
+},
+{
+"host": "windowsxp4",
+"function": "Workstation",
+"os": "Windows XP Service Pack 2",
+"segment": "Operational Technology",
+"purdue": "3 - Site Operations and Control",
+"ip": "192.168.56.101",
+"id": "windowsxp4 (192.168.56.101)"
+},
+{
+"host": "win-jl7br80s0bu",
+"function": "Workstation",
+"os": "Windows 7 Service Pack 1",
+"segment": "Operational Technology",
+"purdue": "3 - Site Operations and Control",
+"ip": "192.168.116.138",
+"id": "win-jl7br80s0bu (192.168.116.138)"
+},
+{
+"host": "vtes02",
+"function": "ICS Supervisory",
+"os": "Windows 7 or Windows Server 2008 R2",
+"segment": "Operational Technology",
+"purdue": "2 - Supervisory Control",
+"ip": "192.168.20.16",
+"id": "vtes02 (192.168.20.16)"
+},
+{
+"host": "vs-splunk-002-fed.demofs.com",
+"function": "Computer",
+"os": "Ubuntu 16.04",
+"segment": "VS-Vendors",
+"purdue": "4 - Site Business Network",
+"ip": "10.200.0.23",
+"id": "vs-splunk-002-fed.demofs.com (10.200.0.23)"
+},
+{
+"host": "vpro04",
+"function": "Distributed Control System",
+"os": "Windows 7 or Windows Server 2008 R2",
+"segment": "Operational Technology",
+"purdue": "2 - Supervisory Control",
+"ip": "192.168.0.38",
+"id": "vpro04 (192.168.0.38)"
+},
+{
+"host": "vpro04",
+"function": "Distributed Control System",
+"os": "Windows 7 or Windows Server 2008 R2",
+"segment": "Operational Technology",
+"purdue": "2 - Supervisory Control",
+"ip": "192.168.0.37",
+"id": "vpro04 (192.168.0.37)"
+},
+{
+"host": "vpro02",
+"function": "Distributed Control System",
+"os": "Windows 7 or Windows Server 2008 R2",
+"segment": "Operational Technology",
+"purdue": "2 - Supervisory Control",
+"ip": "192.168.0.32",
+"id": "vpro02 (192.168.0.32)"
+},
+{
+"host": "vpro02",
+"function": "Programmable Logic Controller",
+"os": "Windows 7 or Windows Server 2008 R2",
+"segment": "Operational Technology",
+"purdue": "1 - Process Control",
+"ip": "192.168.0.30",
+"id": "vpro02 (192.168.0.30)"
+},
+{
+"host": "students-w7-1",
+"function": "Engineering Workstation",
+"os": "Windows 7 or Windows Server 2008 R2",
+"segment": "Operational Technology",
+"purdue": "2 - Supervisory Control",
+"ip": "192.168.212.60",
+"id": "students-w7-1 (192.168.212.60)"
+},
+{
+"host": "sm-lap-14",
+"function": "Workstation",
+"os": "Windows 7 or Windows Server 2008 R2",
+"segment": "Operational Technology",
+"purdue": "3 - Site Operations and Control",
+"ip": "192.168.56.1",
+"id": "sm-lap-14 (192.168.56.1)"
+},
+{
+"host": "proplus",
+"function": "Engineering Workstation",
+"os": "Windows Vista or Windows Server 2008",
+"segment": "Operational Technology",
+"purdue": "2 - Supervisory Control",
+"ip": "192.168.0.6",
+"id": "proplus (192.168.0.6)"
+},
+{
+"host": "pridc1",
+"function": "Domain Controller",
+"os": "Windows Server 2003 Service Pack 2",
+"segment": "Operational Technology",
+"purdue": "3 - Site Operations and Control",
+"ip": "192.168.4.1",
+"id": "pridc1 (192.168.4.1)"
+},
+{
+"host": "prias1",
+"function": "Distributed Control System",
+"os": "Windows Server 2003 Service Pack 2",
+"segment": "Operational Technology",
+"purdue": "2 - Supervisory Control",
+"ip": "192.168.4.11",
+"id": "prias1 (192.168.4.11)"
+},
+{
+"host": "priac800mcs2",
+"function": "Distributed Control System",
+"os": "Windows Server 2003 Service Pack 2",
+"segment": "SD-EMEA",
+"purdue": "2 - Supervisory Control",
+"ip": "10.10.53.26",
+"id": "priac800mcs2 (10.10.53.26)"
+},
+{
+"host": "priac800mcs1",
+"function": "Distributed Control System",
+"os": "Windows Server 2003 Service Pack 2",
+"segment": "Operational Technology",
+"purdue": "2 - Supervisory Control",
+"ip": "192.168.4.21",
+"id": "priac800mcs1 (192.168.4.21)"
+},
+{
+"host": "priac800mcs1",
+"function": "Computer",
+"os": "Windows Server 2003 Service Pack 2",
+"segment": "SD-EMEA",
+"purdue": "\u2014",
+"ip": "10.10.53.25",
+"id": "priac800mcs1 (10.10.53.25)"
+},
+{
+"host": "ows1",
+"function": "Distributed Control System",
+"os": "Windows 7 or Windows Server 2008 R2",
+"segment": "Operational Technology",
+"purdue": "2 - Supervisory Control",
+"ip": "192.168.0.46",
+"id": "ows1 (192.168.0.46)"
+},
+{
+"host": "ny-mri02",
+"function": "MRI Scanner",
+"os": "Windows 7",
+"segment": "100-SD-OT",
+"purdue": "1 - Process Control",
+"ip": "10.240.11.16",
+"id": "ny-mri02 (10.240.11.16)"
+},
+{
+"host": "lab-mri01",
+"function": "MRI Scanner",
+"os": "Windows 7",
+"segment": "100-SD-Medical",
+"purdue": "1 - Process Control",
+"ip": "10.240.10.16",
+"id": "lab-mri01 (10.240.10.16)"
+},
+{
+"host": "engclient1",
+"function": "Engineering Workstation",
+"os": "Windows XP Service Pack 2",
+"segment": "Operational Technology",
+"purdue": "2 - Supervisory Control",
+"ip": "192.168.4.71",
+"id": "engclient1 (192.168.4.71)"
+},
+{
+"host": "drop230",
+"function": "Distributed Control System",
+"os": "Windows 7 or Windows Server 2008 R2",
+"segment": "Operational Technology",
+"purdue": "2 - Supervisory Control",
+"ip": "192.168.6.230",
+"id": "drop230 (192.168.6.230)"
+},
+{
+"host": "dfir-win7-x86",
+"function": "Workstation",
+"os": "Windows 7 Service Pack 1",
+"segment": "Operational Technology",
+"purdue": "3 - Site Operations and Control",
+"ip": "192.168.116.149",
+"id": "dfir-win7-x86 (192.168.116.149)"
+},
+{
+"host": "c-dfir-win7-x86",
+"function": "Workstation",
+"os": "Windows 7 Service Pack 1",
+"segment": "Operational Technology",
+"purdue": "3 - Site Operations and Control",
+"ip": "192.168.116.172",
+"id": "c-dfir-win7-x86 (192.168.116.172)"
+},
+{
+"host": "VS-W7-001",
+"function": "Workstation",
+"os": "Windows 7 Ultimate SP1",
+"segment": "VS-Endpoints",
+"purdue": "4 - Site Business Network",
+"ip": "10.200.100.102",
+"id": "VS-W7-001 (10.200.100.102)"
+},
+{
+"host": "DEMOFS\\VS-W7-002",
+"function": "Workstation",
+"os": "Windows 7 Ultimate SP1",
+"segment": "VS-Endpoints",
+"purdue": "4 - Site Business Network",
+"ip": "10.200.100.108",
+"id": "DEMOFS\\VS-W7-002 (10.200.100.108)"
+},
+{
+"host": "DEMOFS.COM\\K100-ES-002A",
+"function": "Server",
+"os": "Windows 7 or Windows Server 2008 R2",
+"segment": "100-Core-3000",
+"purdue": "4 - Site Business Network",
+"ip": "10.100.0.14",
+"id": "DEMOFS.COM\\K100-ES-002A (10.100.0.14)"
+},
+{
+"host": "192.168.80.21",
+"function": "ICS Supervisory",
+"os": "Windows XP Professional x64 or Windows Server 2003",
+"segment": "Operational Technology",
+"purdue": "2 - Supervisory Control",
+"ip": "192.168.80.21",
+"id": "192.168.80.21 (192.168.80.21)"
+},
+{
+"host": "192.168.3.254",
+"function": "Unknown",
+"os": "Windows XP",
+"segment": "Operational Technology",
+"purdue": "\u2014",
+"ip": "192.168.3.254",
+"id": "192.168.3.254 (192.168.3.254)"
+},
+{
+"host": "192.168.1.49",
+"function": "Unknown",
+"os": "Windows 7",
+"segment": "Operational Technology",
+"purdue": "\u2014",
+"ip": "192.168.1.49",
+"id": "192.168.1.49 (192.168.1.49)"
+},
+{
+"host": "192.168.0.7",
+"function": "Distributed Control System",
+"os": "Windows Vista",
+"segment": "Operational Technology",
+"purdue": "2 - Supervisory Control",
+"ip": "192.168.0.7",
+"id": "192.168.0.7 (192.168.0.7)"
+},
+{
+"host": "192.168.0.47",
+"function": "Distributed Control System",
+"os": "Windows 7",
+"segment": "Operational Technology",
+"purdue": "2 - Supervisory Control",
+"ip": "192.168.0.47",
+"id": "192.168.0.47 (192.168.0.47)"
+},
+{
+"host": "10.10.55.38",
+"function": "Ultrasound",
+"os": "Windows 7",
+"segment": "SD-EMEA",
+"purdue": "1 - Process Control",
+"ip": "10.10.55.38",
+"id": "10.10.55.38 (10.10.55.38)"
+},
+{
+"host": "10.10.55.16",
+"function": "MRI Scanner",
+"os": "Windows 7",
+"segment": "SD-EMEA",
+"purdue": "1 - Process Control",
+"ip": "10.10.55.16",
+"id": "10.10.55.16 (10.10.55.16)"
+},
+{
+"host": "10.10.50.22",
+"function": "Computer",
+"os": "Windows 7 Professional",
+"segment": "SD-EMEA",
+"purdue": "\u2014",
+"ip": "10.10.50.22",
+"id": "10.10.50.22 (10.10.50.22)"
+}
+]

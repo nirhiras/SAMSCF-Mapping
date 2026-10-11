@@ -1,0 +1,242 @@
+[
+{
+"id": "legacy",
+"pillar": "1. Asset classification",
+"finding": "Legacy OS (XP, Vista, 7, 2003, 2008), mostly OT and medical",
+"affected": 35,
+"unverified": 0,
+"severity": "Critical",
+"next_step": "Isolate in OT/medical enclaves, plan replacement, monitor passively",
+"priority": 1
+},
+{
+"id": "os_unknown",
+"pillar": "1. Asset classification",
+"finding": "Operating system not identified",
+"affected": 682,
+"unverified": 0,
+"severity": "Medium",
+"next_step": "Enable deeper profiling or deploy SecureConnector to classify",
+"priority": 3
+},
+{
+"id": "no_owner",
+"pillar": "1. Asset classification",
+"finding": "No owner or user recorded",
+"affected": 1410,
+"unverified": 0,
+"severity": "Medium",
+"next_step": "Pull owner and department from CMDB/ServiceNow",
+"priority": 3
+},
+{
+"id": "not_cmdb",
+"pillar": "1. Asset classification",
+"finding": "Not in CMDB",
+"affected": 209,
+"unverified": 1741,
+"severity": "Medium",
+"next_step": "Onboard missing hosts; reconcile unmatched IoT records",
+"priority": 3
+},
+{
+"id": "unrated",
+"pillar": "1. Asset classification",
+"finding": "No criticality rating",
+"affected": 1262,
+"unverified": 0,
+"severity": "Medium",
+"next_step": "Rate every asset; default OT and clinical to High",
+"priority": 3
+},
+{
+"id": "weak_creds",
+"pillar": "2. Patch & vulnerability",
+"finding": "Weak or factory-default credentials confirmed",
+"affected": 22,
+"unverified": 733,
+"severity": "Critical",
+"next_step": "Rotate now on switches, routers, MRI and infusion pumps; test the rest",
+"priority": 1
+},
+{
+"id": "exposed",
+"pillar": "2. Patch & vulnerability",
+"finding": "Reachable from the internet",
+"affected": 37,
+"unverified": 0,
+"severity": "Critical",
+"next_step": "Remove internet routes or put behind firewall/VPN; investigate unknowns",
+"priority": 1
+},
+{
+"id": "patch",
+"pillar": "2. Patch & vulnerability",
+"finding": "Windows critical or important patches missing",
+"affected": 18,
+"unverified": 439,
+"severity": "High",
+"next_step": "Push critical patches; fix patch validation so status is known",
+"priority": 2
+},
+{
+"id": "firmware",
+"pillar": "2. Patch & vulnerability",
+"finding": "Non-compliant IoT/OT firmware",
+"affected": 99,
+"unverified": 0,
+"severity": "High",
+"next_step": "Schedule vendor-approved firmware updates",
+"priority": 2
+},
+{
+"id": "cleartext",
+"pillar": "2. Patch & vulnerability",
+"finding": "Telnet or FTP open",
+"affected": 11,
+"unverified": 106,
+"severity": "High",
+"next_step": "Disable Telnet/FTP/HTTP management; use SSH/HTTPS",
+"priority": 2
+},
+{
+"id": "log4j",
+"pillar": "2. Patch & vulnerability",
+"finding": "Log4j status unknown",
+"affected": 0,
+"unverified": 419,
+"severity": "Medium",
+"next_step": "Run Log4j checks or confirm hosts are out of scope",
+"priority": 3
+},
+{
+"id": "ot_seg",
+"pillar": "3. Segmentation & Zero Trust",
+"finding": "OT devices (Purdue 0\u20133) outside OT segments",
+"affected": 232,
+"unverified": 0,
+"severity": "High",
+"next_step": "Move to OT VLANs behind an industrial DMZ firewall",
+"priority": 2
+},
+{
+"id": "guest",
+"pillar": "3. Segmentation & Zero Trust",
+"finding": "Unauthorized guest devices on internal segments",
+"affected": 204,
+"unverified": 0,
+"severity": "High",
+"next_step": "Quarantine; require guest registration",
+"priority": 2
+},
+{
+"id": "vlan",
+"pillar": "3. Segmentation & Zero Trust",
+"finding": "Wired devices on the wrong VLAN",
+"affected": 137,
+"unverified": 0,
+"severity": "Medium",
+"next_step": "Assign VLANs by classification",
+"priority": 3
+},
+{
+"id": "vlan1",
+"pillar": "3. Segmentation & Zero Trust",
+"finding": "Switch ports on default VLAN 1",
+"affected": 33,
+"unverified": 0,
+"severity": "Medium",
+"next_step": "Move ports off VLAN 1",
+"priority": 3
+},
+{
+"id": "multi",
+"pillar": "3. Segmentation & Zero Trust",
+"finding": "Several hosts behind one switch port",
+"affected": 27,
+"unverified": 0,
+"severity": "Medium",
+"next_step": "Check for unmanaged hubs or rogue switches",
+"priority": 3
+},
+{
+"id": "untrusted",
+"pillar": "3. Segmentation & Zero Trust",
+"finding": "Untrusted devices",
+"affected": 281,
+"unverified": 0,
+"severity": "Medium",
+"next_step": "Restrict access until classified and trusted",
+"priority": 3
+},
+{
+"id": "traffic",
+"pillar": "3. Segmentation & Zero Trust",
+"finding": "No traffic data for segmentation",
+"affected": 0,
+"unverified": 938,
+"severity": "Medium",
+"next_step": "Enable flow collection before writing allow-lists",
+"priority": 3
+},
+{
+"id": "mde_high",
+"pillar": "4. Endpoint & monitoring",
+"finding": "Defender for Endpoint risk score High",
+"affected": 17,
+"unverified": 0,
+"severity": "High",
+"next_step": "Investigate now; onboard all Windows to Defender for Endpoint",
+"priority": 1
+},
+{
+"id": "av",
+"pillar": "4. Endpoint & monitoring",
+"finding": "Defender antivirus out of date or not running",
+"affected": 401,
+"unverified": 0,
+"severity": "High",
+"next_step": "Force signature updates; restart stopped AV",
+"priority": 2
+},
+{
+"id": "encryption",
+"pillar": "4. Endpoint & monitoring",
+"finding": "Disk not encrypted",
+"affected": 57,
+"unverified": 400,
+"severity": "High",
+"next_step": "Turn on BitLocker or FileVault",
+"priority": 2
+},
+{
+"id": "admin_mfa",
+"pillar": "4. Endpoint & monitoring",
+"finding": "Domain Admin sessions on endpoints; MFA not reported",
+"affected": 66,
+"unverified": 0,
+"severity": "High",
+"next_step": "Require MFA for admin and remote logins; vault admin accounts",
+"priority": 2
+},
+{
+"id": "crowdstrike",
+"pillar": "4. Endpoint & monitoring",
+"finding": "CrowdStrike agent missing or not responding",
+"affected": 7,
+"unverified": 0,
+"severity": "Medium",
+"next_step": "Fix agent install and health",
+"priority": 3
+},
+{
+"id": "siem",
+"pillar": "4. Endpoint & monitoring",
+"finding": "Hosts not forwarded to a SIEM",
+"affected": 1704,
+"unverified": 0,
+"severity": "Medium",
+"next_step": "Forward all hosts and policy events to Splunk/Sentinel",
+"priority": 3
+}
+]

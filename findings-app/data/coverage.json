@@ -1,0 +1,98 @@
+[
+{
+"id": "os_id",
+"area": "Asset",
+"control": "OS identified",
+"covered": 1384,
+"total": 2066,
+"note": "All hosts"
+},
+{
+"id": "owner",
+"area": "Asset",
+"control": "Owner recorded",
+"covered": 656,
+"total": 2066,
+"note": "All hosts"
+},
+{
+"id": "cmdb",
+"area": "Asset",
+"control": "In CMDB",
+"covered": 1686,
+"total": 2066,
+"note": "All hosts"
+},
+{
+"id": "creds",
+"area": "Patch",
+"control": "Credentials tested",
+"covered": 1066,
+"total": 1799,
+"note": "Hosts the credential policy evaluated"
+},
+{
+"id": "patch_known",
+"area": "Patch",
+"control": "Patch status known",
+"covered": 18,
+"total": 457,
+"note": "Managed Windows hosts"
+},
+{
+"id": "av_ok",
+"area": "Endpoint",
+"control": "Antivirus up to date",
+"covered": 56,
+"total": 457,
+"note": "Windows hosts with Defender checked"
+},
+{
+"id": "sccm",
+"area": "Endpoint",
+"control": "SCCM agent installed",
+"covered": 20,
+"total": 457,
+"note": "Managed Windows hosts"
+},
+{
+"id": "encrypted",
+"area": "Endpoint",
+"control": "Disk encryption confirmed",
+"covered": 0,
+"total": 457,
+"note": "Hosts the encryption policy evaluated"
+},
+{
+"id": "sc",
+"area": "Endpoint",
+"control": "ForeScout agent (Windows)",
+"covered": 7,
+"total": 543,
+"note": "Windows hosts"
+},
+{
+"id": "mde",
+"area": "Endpoint",
+"control": "Onboarded to Defender for Endpoint",
+"covered": 1,
+"total": 543,
+"note": "Windows hosts"
+},
+{
+"id": "dot1x",
+"area": "Network",
+"control": "802.1X authenticated",
+"covered": 2,
+"total": 960,
+"note": "Campus wired hosts"
+},
+{
+"id": "siem",
+"area": "Monitoring",
+"control": "Forwarded to SIEM",
+"covered": 362,
+"total": 2066,
+"note": "All hosts"
+}
+]

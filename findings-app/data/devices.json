@@ -1,0 +1,54 @@
+[
+{
+"type": "Windows",
+"hosts": 543
+},
+{
+"type": "IoT Devices",
+"hosts": 201
+},
+{
+"type": "VoIP",
+"hosts": 190
+},
+{
+"type": "macOS",
+"hosts": 168
+},
+{
+"type": "OT Devices",
+"hosts": 114
+},
+{
+"type": "Linux/Unix",
+"hosts": 85
+},
+{
+"type": "Network Devices",
+"hosts": 50
+},
+{
+"type": "Mobile",
+"hosts": 38
+},
+{
+"type": "Unknown misc. devices",
+"hosts": 37
+},
+{
+"type": "Printers",
+"hosts": 27
+},
+{
+"type": "Servers",
+"hosts": 12
+},
+{
+"type": "Windows 7 (legacy)",
+"hosts": 2
+},
+{
+"type": "Not classified",
+"hosts": 599
+}
+]

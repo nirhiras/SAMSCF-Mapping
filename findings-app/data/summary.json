@@ -1,0 +1,57 @@
+[
+{
+"metric": "total_hosts",
+"label": "Hosts in the export",
+"value": 2066
+},
+{
+"metric": "compliant",
+"label": "Compliant",
+"value": 753
+},
+{
+"metric": "noncompliant",
+"label": "Not compliant",
+"value": 1046
+},
+{
+"metric": "na",
+"label": "No compliance result",
+"value": 267
+},
+{
+"metric": "legacy",
+"label": "Legacy OS hosts",
+"value": 35
+},
+{
+"metric": "weak_creds",
+"label": "Weak or default credentials confirmed",
+"value": 22
+},
+{
+"metric": "weak_unknown",
+"label": "Credentials never tested",
+"value": 733
+},
+{
+"metric": "exposed",
+"label": "Internet-exposed devices",
+"value": 37
+},
+{
+"metric": "crit_high",
+"label": "High or Critical hosts",
+"value": 208
+},
+{
+"metric": "crit_high_nc",
+"label": "High or Critical hosts not compliant",
+"value": 187
+},
+{
+"metric": "cleartext",
+"label": "Telnet or FTP open (confirmed)",
+"value": 11
+}
+]
